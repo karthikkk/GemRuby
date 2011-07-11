@@ -1,5 +1,5 @@
 module ElementFinder
-  def find_button(what)
+  def click_button(what)
     case
       when browser.button(:id, what).exists?
            browser.button(:id, what).click
@@ -23,7 +23,7 @@ module ElementFinder
     end
   end
 
-  def find_checkbox(what)
+  def click_checkbox(what)
     case
       when browser.checkbox(:id, what).exists?
            browser.checkbox(:id, what).click
@@ -47,7 +47,7 @@ module ElementFinder
     end
   end
 
-  def find_image(what)
+  def click_image(what)
     case
       when browser.image(:src, what).exists?
            browser.image(:src, what).click
@@ -71,7 +71,7 @@ module ElementFinder
     end
   end
 
-  def find_link(what)
+  def click_link(what)
     case
       when browser.link(:id, what).exists?
            browser.link(:id, what).click
@@ -110,7 +110,7 @@ module ElementFinder
     end
   end
 
-  def click_table(row, column, what)
+  def find_table(row, column, what)
     row = row.to_i
     column = column.to_i
     case
