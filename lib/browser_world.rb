@@ -8,18 +8,9 @@ module BrowserWorld
         @browser ||= Watir::Browser.new :firefox
     end
   end
-
-  def i_should_see text
-    browser.text.normalize_spaces.should_include? text
-  end
-
-  def i_should_not_see text
-    browser.text.normalize_spaces.should_not_include? text
-  end
-
 end
 
-# if RUBY_PLATFORM.include? "win"
+
 
 
 

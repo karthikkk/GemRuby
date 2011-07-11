@@ -1,15 +1,18 @@
 $:.unshift "#{File.dirname(__FILE__)}/../../lib"
 require 'rubygems'
+require "spec"
 require "browser_world"
-require "string"
 require 'bundler/setup'
 require 'fileutils'
 require 'cucumber'
 require 'rake'
-#require 'rspec'
 require 'watir-webdriver'
-require 'browser_extensions'
+require "string"
+require "element_finder"
 
+include ElementFinder
+
+$url = {:google=> 'http://www.google.co.uk', :facebook=>'http://www.facebook.com'}
 
 World(BrowserWorld)
 
