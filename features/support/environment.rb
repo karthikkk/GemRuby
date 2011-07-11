@@ -7,7 +7,6 @@ require 'fileutils'
 require 'cucumber'
 require 'rake'
 require 'watir-webdriver'
-require "string"
 require "element_finder"
 
 include ElementFinder

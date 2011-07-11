@@ -26,7 +26,7 @@ Given /I select "(.*)" from "(.*)"/ do |option, element|
   click_select_list(option, element)
 end
 
-Given /I fill in the text field "(.*)" text "(.*)"/ do |element, text|
+Given /I fill in the text field "(.*)" with "(.*)"/ do |element, text|
   find_text_field(element, text)
 end
 
