@@ -1,33 +1,33 @@
-Given /I click the "(.*)" button/ do |what|
-  click_button(what)
+Given /I click the "(.*)" button/ do |element|
+  click_button(element)
 end
 
-Given /I click the "(.*)" checkbox/ do |what|
-  click_checkbox(what)
+Given /I click the "(.*)" checkbox/ do |element|
+  click_checkbox(element)
 end
 
-Given /I click the "(.*)" image/ do |what|
-  click_image(what)
+Given /I click the "(.*)" image/ do |element|
+  click_image(element)
 end
 
-Given /I click the "(.*)" link/ do |what|
-  click_link(what)
+Given /I click the "(.*)" link/ do |element|
+  click_link(element)
 end
 
-Given /I click the "(.*)" radio button/ do |what|
-  click_radio_button(what)
+Given /I click the "(.*)" radio button/ do |element|
+  click_radio_button(element)
 end
 
-Given /I click row "(.*)" in the "(.*)" table/ do |row, column, what|
-  find_table(row, column, what)
+Given /I click row "(.*)" in the "(.*)" table/ do |row, column, element|
+  find_table(row, column, element)
 end
 
-Given /I select "(.*)" from "(.*)"/ do |option, what|
-  click_select_list(option, what)
+Given /I select "(.*)" from "(.*)"/ do |option, element|
+  click_select_list(option, element)
 end
 
-Given /I fill in the text field "(.*)" with "(.*)"/ do |what, with|
-  find_text_field(what, with)
+Given /I fill in the text field "(.*)" text "(.*)"/ do |element, text|
+  find_text_field(element, text)
 end
 
 Given /^I am on (.+)$/ do |page_name|
