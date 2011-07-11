@@ -1,0 +1,5 @@
+source :rubygems
+gem 'watir-webdriver', "0.1.4"
+gem 'cucumber'
+gem 'rake'
+gem 'selenium-webdriver', "0.1.0"

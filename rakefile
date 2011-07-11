@@ -1,0 +1,13 @@
+require 'cucumber/rake/task'
+
+CUCUMBER_REPORT = 'results.html'
+
+#[CUCUMBER_REPORT, 'target'].each { |file_or_folder| FileUtils.rm_rf(file_or_folder) if File.exist?(file_or_folder) }
+#FileUtils.mkdir_p('target')
+
+Cucumber::Rake::Task.new(:default) do |t|
+
+  t.cucumber_opts = " features --format html --out #{CUCUMBER_REPORT} "
+end
+
+
