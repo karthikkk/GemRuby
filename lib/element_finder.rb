@@ -13,8 +13,8 @@ module ElementFinder
       when browser.button(:text, element).exists?
            browser.button(:text, element).click
        
-      when browser.button(:index, elementent).exists?
-           browser.button(:indeeleelementhat).click
+      when browser.button(:index, element).exists?
+           browser.button(:index, element).click
          
       when browser.button(:class, element).exists?
            browser.button(:class, element).click
