@@ -19,7 +19,7 @@ module ElementFinder
       when browser.button(:class, element).exists?
            browser.button(:class, element).click
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -43,7 +43,7 @@ module ElementFinder
       when browser.checkbox(:class, element).exists?
           browser.checkbox(:class, element).click
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -67,7 +67,7 @@ module ElementFinder
       when browser.image(:class, element).exists?
            browser.image(:class, element).click
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -82,7 +82,7 @@ module ElementFinder
       when browser.link(:class, element).exists?
            browser.link(:class, element).click
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unble to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -106,7 +106,7 @@ module ElementFinder
       when browser.radio(:class, element).exists?
            browser.radio(:class, element).click
       else
-        fail("Sorry, I wasn't able to click the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to click " + "'#{element}'" + " element ")
     end
   end
 
@@ -126,7 +126,7 @@ module ElementFinder
       when browser.table(:class, element).exists?
            browser.table(:class, element)[row][column].click
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -150,7 +150,7 @@ module ElementFinder
       when browser.select_list(:class, /(^|\s)#{element}(\s|$)/).exists?
            browser.select_list(:class, /(^|\s)#{element}(\s|$)/).set(option)
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 
@@ -171,7 +171,7 @@ module ElementFinder
       when browser.text_field(:class, /(^|\s)#{element}(\s|$)/).exists?
           browser.text_field(:class, /(^|\s)#{element}(\s|$)/).set(text)
       else
-        fail("Sorry, I wasn't able to find the " + "'#{element}'" + " element ")
+        fail("Sorry, unable to find " + "'#{element}'" + " element ")
     end
   end
 end
