@@ -8,6 +8,7 @@ GemRuby is a simple web testing framework built on Cucumber, Watir-webdriver and
 
 == Installation and Usage
 1. Clone this repository from Github
-2. In the root directory, run 'bundle install'
-3. Run 'rake' to run the tests. By default, the tests run in firefox.
-4. To run the tests in Internet Explorer or Google Chrome, do 'rake browser=ie or  chrome'.
+2. From the command prompt, run 'gem install bundler'
+3. In the project root directory, run 'bundle install'
+4. Run 'rake' to run the tests. By default, the tests run in firefox.
+5. To run the tests in Internet Explorer or Google Chrome, do 'rake browser=ie or  chrome'.
