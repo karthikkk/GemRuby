@@ -1,0 +1,13 @@
+ = Introduction
+
+This is a simple, easy to use  Cucumber + Watir-WebDriver + Rspec test framework for automated web testing.
+
+== Requirements
+* Ruby 1.8.7 or higher You can download from here http://www.ruby-lang.org/en/downloads/
+* Rubygems
+
+== Installation and Usage
+1. Clone this repository from Github
+2. In the root directory, run 'bundle install'
+3. Run 'rake' to run the tests. By default, the tests run in firefox.
+4. To run the tests in Internet Explorer or Google Chrome, do 'rake browser=ie or  chrome'.
