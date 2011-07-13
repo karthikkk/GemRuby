@@ -1,4 +1,4 @@
- = Introduction
+= Introduction
 
 This is a simple, easy to use  Cucumber + Watir-WebDriver + Rspec test framework for automated web testing.
 
