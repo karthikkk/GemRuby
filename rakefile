@@ -1,9 +1,10 @@
 require 'cucumber/rake/task'
 
-TEST_RESULTS = 'results.html'
+TEST_REPORT = 'results.html'
+FileUtils.rm_rf(TEST_REPORT)
 
 Cucumber::Rake::Task.new(:default) do |t|
-  t.cucumber_opts = " features --format html --out #{TEST_RESULTS} "
+  t.cucumber_opts = " features --format html --out #{TEST_REPORT}"
 end
 
 
