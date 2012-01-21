@@ -1,5 +1,6 @@
 = Introduction
 
+
 GemRuby is a simple web testing framework built on Cucumber, Watir-webdriver and Rspec using Ruby programming language. This framework implements page-object design pattern inspired by Jeff Morgan's page-object and Alister Scott's watir-helper gems.
 
 == Requirements
