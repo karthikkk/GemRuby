@@ -12,3 +12,8 @@ GemRuby is a simple web testing framework built on Cucumber, Watir-webdriver and
 2. From the command prompt, run 'gem install bundler'
 3. In the project root directory, run 'bundle install'
 4. Run 'rake' to run the tests.
+
+
+## Copyright
+
+Copyright (c) 2011-2012 Karthik Narayanan. See License for details.
