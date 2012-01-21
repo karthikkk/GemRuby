@@ -14,6 +14,6 @@ GemRuby is a simple web testing framework built on Cucumber, Watir-webdriver and
 4. Run 'rake' to run the tests.
 
 
-## Copyright
+== Copyright
 
-Copyright (c) 2011-2012 Karthik Narayanan. See License for details.
+Copyright (c) 2011-2012 Karthik Narayanan. See LICENSE for details.
