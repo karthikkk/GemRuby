@@ -1,3 +1,4 @@
+# Step_definitions using page objects
 Then /^I should be on search results page$/ do
   on_page SearchResults do |page|
     page.verify_title

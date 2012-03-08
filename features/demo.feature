@@ -5,6 +5,7 @@ Feature: As as Sky TV customer, I want to search for Sky+ HD
     And I search for 'Sky+ HD'
     Then I should be on search results page
 
+
     Scenario: As a new customer, I want to look at different Sky TV packages
       Given  I visit Sky homepage
       And I goto sky shop

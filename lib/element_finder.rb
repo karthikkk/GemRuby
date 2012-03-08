@@ -1,4 +1,5 @@
 module ElementFinder
+
   def click_button(element)
     case
       when browser.button(:id, element).exists?

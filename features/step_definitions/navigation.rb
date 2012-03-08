@@ -1,5 +1,6 @@
 Given /^I visit Sky homepage$/ do
   visit_page Homepage
+
 end
 
 When /^I search for '(.+)'$/ do |text|
